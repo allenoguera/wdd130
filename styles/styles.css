@@ -1,3 +1,4 @@
+/* Universal selector*/
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +18,11 @@ nav a {
 
 h1 {
     color: steelblue;
+}
+
+/* Main image float right */
+main img {
+    float: right;
 }
 
 main img {
@@ -44,6 +50,12 @@ aside {
     text-align: center;
 }
 
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 150px;
+}
+
 aside img {
     width: 200px;
     height: auto;
@@ -63,5 +75,11 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+}
+
+/* Ul text-align */
+
+ul {
+    text-align: center;
 }
 
