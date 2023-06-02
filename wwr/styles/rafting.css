@@ -79,12 +79,12 @@ header, main, footer {
     color: var(--nav-link-color);
 }
 
-.hero,
+.hero-bg,
 main section {
     margin-top: 40px;
 }
 
-.hero {
+.hero-bg {
     position: relative;
     overflow: hidden;
 }
