@@ -1,21 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:wght@500&display=swap');
 
 :root {
-    --primary-color: #90e0ef    ;
-    --secondary-color: #48cae4 ;
-    --accent1-color: #00b4d8;
-    --accent2-color: #0096c7;
-  
-   
+    --primary-color: #235789;
+    --secondary-color: #2D8C73;
+    --accent1-color: #5C9C6D;
+    --accent2-color: #87AF7F;
+    
     --heading-font: "Roboto", sans-serif;
     --paragraph-font: "Open Sans", sans-serif;
-  
-    --nav-background-color: #caf0f8;
-    --nav-link-color: #03045e;
-    --nav-hover-link-color: white;
-    --nav-hover-background-color: #03045e
-  
-} 
+    
+    --nav-background-color: #235789;
+    --nav-link-color: #2D8C73;
+    --nav-hover-link-color: #FFFFFF;
+    --nav-hover-background-color: #5C9C6D;
+}
+
+html {
+    background-color: #f4f4f4;
+}
+
 * {
     margin : 0;
     padding : 0;
