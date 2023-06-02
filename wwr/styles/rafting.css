@@ -15,14 +15,7 @@
     --nav-hover-link-color: white;
     --nav-hover-background-color: #03045e
   
-  } 
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: var(--paragraph-font);
-}
+} 
 
 body {
     padding: 60px;
@@ -30,7 +23,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(black);
+    color: black;
     text-align: center;
 }
 
@@ -177,7 +170,7 @@ footer p {
 
 form, .explore {
     width: 500px;
-    margin: none;
+    margin: 0;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
