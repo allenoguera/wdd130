@@ -16,6 +16,11 @@
     --nav-hover-background-color: #03045e
   
 } 
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
 
 body {
     padding: 60px;
