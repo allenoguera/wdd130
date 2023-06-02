@@ -180,6 +180,8 @@ button:hover {
     max-width: 100%;
     display: grid;
     align-content: end;
+    border: 1px solid #272424;
+    padding: 1rem;
 }
 
 .adventure figcaption {
