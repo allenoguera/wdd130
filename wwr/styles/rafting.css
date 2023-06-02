@@ -33,9 +33,9 @@ p {
     text-align: justify;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
     font-family: var(--heading-font);
-    color: black;
+    color: var(black);
     text-align: center;
 }
 
@@ -139,8 +139,8 @@ h1 {
     max-width: 100%;
     display: grid;
     align-content: end;
-    border: 1px solid #272424;
     padding: 1rem;
+    box-shadow: .2rem .2rem .2rem rgba(119, 119, 119, 0.452);
 }
 
 .adventure figcaption {
@@ -172,6 +172,125 @@ footer p {
     text-decoration: none;
     display: inline-block;
     width: 50px;
+}
+
+
+/* Contact Us page Css */
+h6 {
+    position: right;
+    display: flex;
+    top: 60px;
+    width: 100%;
+    padding: 15px;
+    font-size: 30px;      
+}
+
+.contact-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+ 
+form {
+    width: 500px;
+    margin: none;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+}
+
+.contactinfo {
+    display: block;
+    margin: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+    width: 650px;
+}
+
+
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+.contactinfo, fieldset {
+    display: grid;
+    align-items: baseline;
+}
+
+.map {
+    width: 600px;
+    height: 450px;
+    border: none;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-size: "Roboto", sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+buttonn {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: navy;
+}
+
+.adventure-content {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+}
+
+.adventure figure {
+    max-width: 100%;
+    display: grid;
+    align-content: end;
+    border: 1px solid #272424;
+    padding: 1rem;
+}
+
+.adventure figcaption {
+    padding-top: 10px;
+    text-align: center;
 }
 
 /* Home page Css */
@@ -260,13 +379,44 @@ form, .explore {
 
 /* Trips page Css */
 
-.home-paragraph-4 { 
-    grid-area: 5 / 1 / 6 / 6; 
+.home-paragraph-4 {
+    grid-area: 5 / 1 / 6 / 6;
     text-align: center;
-    border-top: 5px double;
-    border-bottom: 5px double;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    padding: 20px 0;
 }
-
+  
+.home-paragraph-4 h2 {
+    margin-bottom: 10px;
+}
+  
+.home-paragraph-4 p {
+    margin-bottom: 20px;
+}
+  
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+  
+.cta-button:hover {
+    background-color: #0056b3;
+}
+  
+.cta-button:focus {
+    outline: none;
+}
+  
+.cta-button:active {
+    background-color: #003c80;
+}
 
 .home-grid {
     display: grid;
